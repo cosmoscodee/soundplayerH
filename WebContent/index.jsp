@@ -3,6 +3,30 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="./jquery/jquery-1.9.0.js"></script>
+<!-- <script type="text/javascript" src="./app.js"></script> -->
+
+<script type="text/javascript">
+var channelName = 'BLACKPINK';
+
+/* $(document).ready(function({
+	$.get( 
+		"https://www.googleapis.com/youtube/v3/channels", {
+			part: 'contentDetails',
+			forUsername: channelName,
+			key: 'AIzaSyArrLWBKmaJIoZIV774H7d6eOTSBmcKAAs'},
+			
+			function(data) {
+				$.each(data.items, function(i, item) {
+					console.log(item);
+				});
+			}
+	);
+});
+ */
+
+</script>
+
 <title>Sound Player</title>
 <style>
 	*{ margin:0; padding:0; }
@@ -27,7 +51,7 @@
 	#menu {
 		width: 960px; margin: 0 auto;
 		height: 50px;
-		border: 1px solid black;
+		border: 2px solid black;
 		position: relative;
 
 	}	
@@ -37,7 +61,7 @@
 	#content {
 		width: 960px; margin: 0 auto;
 		height: 360px;
-		border: 1px solid black;
+		border: 2px solid black;
 		position: relative;
 		
 	}
@@ -47,7 +71,7 @@
 	#controller {
 		width: 960px; margin: 0 auto;
 		height: 50px;
-		border: 1px solid black;
+		border: 2px dotted black;
 		position: relative;
 		
 	}
@@ -57,7 +81,7 @@
 	#list {
 		width: 960px; margin: 0 auto;
 		height: 240px;
-		border: 1px solid black;
+		border: 2px solid black;
 		position: relative;
 		
 	}
@@ -75,7 +99,7 @@
 		Menu Section
 	</div>
 	
-	<section id="content">
+	<section id="content"> 
 		<p>Video Section</p>
 	</section>
 	
