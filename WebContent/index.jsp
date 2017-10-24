@@ -4,28 +4,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <script type="text/javascript" src="./jquery/jquery-1.9.0.js"></script>
-<!-- <script type="text/javascript" src="./app.js"></script> -->
+<script type="text/javascript" src="./app.js"></script>
+<!-- <script type="text/javascript" src="https://apis.google.com/js/client.js"></script> -->
 
-<script type="text/javascript">
-var channelName = 'BLACKPINK';
-
-/* $(document).ready(function({
-	$.get( 
-		"https://www.googleapis.com/youtube/v3/channels", {
-			part: 'contentDetails',
-			forUsername: channelName,
-			key: 'AIzaSyArrLWBKmaJIoZIV774H7d6eOTSBmcKAAs'},
-			
-			function(data) {
-				$.each(data.items, function(i, item) {
-					console.log(item);
-				});
-			}
-	);
-});
- */
-
-</script>
 
 <title>Sound Player</title>
 <style>
@@ -36,7 +17,7 @@ var channelName = 'BLACKPINK';
 	img { border: 0; }
 </style>
 
-<!-- 헤더 -->
+<!-- CSS -->
 <style>
 	#main_header {
 		width: 960px; margin: 0 auto;
@@ -58,11 +39,20 @@ var channelName = 'BLACKPINK';
 </style>
 
 <style>
-	#content {
+	#test {
 		width: 960px; margin: 0 auto;
-		height: 360px;
+		height: 640px;
 		border: 2px solid black;
 		position: relative;
+		background-color: #fff123
+		
+	}
+
+	#player {
+		width: 960px; margin: 0 auto;
+		height: 640px;
+		position: relative;
+		background-color: #fff
 		
 	}
 </style>
@@ -98,16 +88,18 @@ var channelName = 'BLACKPINK';
 	<div id=menu>
 		Menu Section
 	</div>
-	
-	<section id="content"> 
-		<p>Video Section</p>
-	</section>
+	<div id = "test">
+		<div id="player"> 
+		
+		</div>
+	</div>
 	
 	<div id="controller">
 		<p>Controller Section</p>
 	</div>
 	<div id="list">
-		<p>List Section</p>
+
+		
 	</div>
 	
 	
