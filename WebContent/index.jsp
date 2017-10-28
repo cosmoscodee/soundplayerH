@@ -97,9 +97,9 @@
 	<div id="controller">
 		<p>Controller Section</p>
 	</div>
-	<div id="list">
 
-		
+	<div id="list">
+		<!-- PlayList가 뜰 곳 -->
 	</div>
 	
 	
