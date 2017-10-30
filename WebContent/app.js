@@ -29,7 +29,7 @@ function initPlayList(event) {
 	console.log("------ initPlayList ------")
 	player.loadPlaylist(videoId, 0, 0);
 }
-
+657198967823 
 function play(indexnum) {
 	console.log('-- play() --')
 	player.loadPlaylist(videoId, indexnum, 0);
